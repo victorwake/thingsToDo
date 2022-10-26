@@ -1,0 +1,14 @@
+
+
+.thingsTodo-conteiner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+
+}
+
+ul li{
+    list-style: none;
+    margin: 20px;
+}

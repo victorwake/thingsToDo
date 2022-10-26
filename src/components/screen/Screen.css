@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.enter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+}
+
+/* Modo dark end */
+/* .App-dark {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1px;
+    transition-duration: 01s;
+    background-color: rgb(26, 24, 24);
+    color: aliceblue;
+  }
+   */
+  .App-container-dark{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 50px;
+    transition-duration: 01s;
+    background-color: rgb(26, 24, 24);
+    color: rgb(255, 255, 255);
+  }
+  
+  .App-card-dark{
+    min-height: 400px;
+    width: 500px;
+    border-radius: 15px;
+    font-size: calc(10px + 2vmin);
+    transition-duration: 01s;
+    background-color: rgb(26, 24, 24);
+    color: rgb(255, 255, 255);
+    box-shadow: -3px -2px 10px rgb(0, 0, 0), 3px 2px 10px rgba(255, 255, 255, 0.247);
+  }
+  /* Modo dark fin */
+  
+  /* -------------------------------------------------------------------------------------------- */
+  
+  /* Modo light end */
+  /* .App-light {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1px;
+    transition-duration: 01s;
+    color: rgb(2, 2, 2);
+    background-color: rgb(224, 224, 224);
+  } */
+  
+  .App-container-light{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(2, 2, 2);
+    min-height: 100vh;
+    padding-top: 50px;
+    transition-duration: 01s;
+    background-color: rgb(224, 224, 224);
+    
+  }
+  
+  .App-card-light{
+    min-height: 400px;
+    width: 500px;
+    border-radius: 15px;
+    font-size: calc(10px + 2vmin);
+    transition-duration: 01s;
+    background-color: rgb(224, 224, 224);
+    color: rgb(2, 2, 2);
+    box-shadow: -5px -5px 10px rgba(94, 104, 121, 0.486), 5px 3px 10px rgba(255, 255, 255, 0.76);
+  }
+  /* Modo light fin */
+  
+  
