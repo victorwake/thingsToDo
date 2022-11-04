@@ -45,6 +45,22 @@
     background-color: rgb(204, 204, 204);
 }
 
+.task-conteiner-completed-light{
+    width: 400px ;
+    min-height: 45px;
+    padding: 8px 15px 2px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items:stretch;
+    border: none;
+    cursor: pointer;
+    text-decoration: line-through;
+    transition-duration: 01s;
+    color: rgba(2, 2, 2, 0.568);
+    box-shadow: -5px -5px 10px rgba(94, 104, 121, 0.486), 5px 3px 10px rgba(255, 255, 255, 0.76);
+}
+
 /* Fin modo light */
 /* -------------------------------------------------------------------------------------------------------- */
 
@@ -99,10 +115,7 @@
     background-color: rgb(39, 36, 36);
 }
 
-
-/* Tarea completada */
-/* ------------------------------------------------------------------------------------------------------------ */
-.task-conteiner-completed{
+.task-conteiner-completed-dark{
     width: 400px ;
     min-height: 45px;
     padding: 8px 15px 2px 20px;
@@ -112,12 +125,16 @@
     align-items:stretch;
     border: none;
     cursor: pointer;
-    transition-duration: 01s;
-    color: rgba(2, 2, 2, 0.568);
-    box-shadow: -5px -5px 10px rgba(137, 167, 129, 0.486), 5px 3px 10px rgba(80, 105, 98, 0.76);
     text-decoration: line-through;
-    
+    transition-duration: 01s;
+    color: rgb(197, 187, 187);
+    box-shadow: -3px -2px 10px rgb(0, 0, 0), 3px 2px 10px rgba(255, 255, 255, 0.247);
 }
+
+
+/* Tarea completada */
+/* ------------------------------------------------------------------------------------------------------------ */
+
 
 
 

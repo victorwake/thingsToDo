@@ -27,9 +27,6 @@ export default function Form(props) {
         e.target.reset();
     };
 
-    
-
-
 
     return (
     <form className={`task-form-${clase}`} 
