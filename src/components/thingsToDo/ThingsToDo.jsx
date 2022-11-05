@@ -56,7 +56,7 @@ export default function ThingsToDo() {
                     completed = {task.completed}
                     taskDeleted = {taskDeleted}
                     taskCompleted = {taskCompleted}
-                    taskEdited = {taskEdited}
+                    // taskEdited = {taskEdited}
                     />
                     </li>
                 ))

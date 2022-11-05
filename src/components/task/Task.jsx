@@ -15,12 +15,12 @@ export default function Task({id, text, completed, taskCompleted, taskDeleted, t
                 onClick={() => taskCompleted(id)} >
                 {text}
             </div> 
-            <div className='task-icons'
+            {/* <div className='task-icons'
                 onClick={() => taskEdited(id, text)}>
                 <AiFillEdit className={`task-icon-${clase}`} />
                 
 
-            </div>
+            </div> */}
 
             <div className='task-container-icon'
             onClick={()=> taskDeleted(id)} >
