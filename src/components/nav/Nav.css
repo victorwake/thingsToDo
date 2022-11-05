@@ -71,3 +71,17 @@ Link{
     text-decoration: none;
     color: none;
 }
+
+.nav__button-light a{
+    text-decoration: none;
+    transition-duration: 01s;
+    color: rgba(0, 0, 0, 0.76);
+
+}
+
+.nav__button-dark a{
+    text-decoration: none;
+    transition-duration: 01s;
+    color: #fff;
+
+}
