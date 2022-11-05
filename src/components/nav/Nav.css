@@ -85,3 +85,17 @@ Link{
     color: #fff;
 
 }
+
+
+.nav__button-dark:link{
+    text-decoration: none;
+}
+.nav__button-dark:visited{
+    text-decoration: none;
+}
+.nav__button-dark:hover{
+    text-decoration: none;
+}
+.nav__button-dark:active{
+    text-decoration: none;
+}
