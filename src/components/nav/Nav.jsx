@@ -25,20 +25,21 @@ export function Nav(){
 
     return (
         <form className={'Nav-' + clase}>
-            
+            <Link to='/light'>
                 <button onClick={()=> 
                     handleLight()
                     } 
                     type="submit"
-                    className={'nav__button-' + clase}><Link to='/light'>Light</Link></button>
+                    className={'nav__button-' + clase}>Light</button>
+            </Link>
             
-            
+            <Link to='/dark'>
                 <button onClick={()=>
                     handleDark()
                 }   
                 type="submit"
-                className={'nav__button-' + clase}><Link to='/dark'>Dark</Link></button>
-            
+                className={'nav__button-' + clase}>Dark</button>
+            </Link>
         </form>
     )
 }

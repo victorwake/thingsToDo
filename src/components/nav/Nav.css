@@ -74,28 +74,38 @@ Link{
 
 .nav__button-light a{
     text-decoration: none;
+    pointer-events: none;
     transition-duration: 01s;
     color: rgba(0, 0, 0, 0.76);
+
 
 }
 
 .nav__button-dark a{
     text-decoration: none;
+    pointer-events: none;
     transition-duration: 01s;
     color: #fff;
+    
 
 }
 
 
-.nav__button-dark:link{
-    text-decoration: none;
+
+@media screen and (max-width: 768px) {
+    
+
+    .nav__button-light:hover{
+        /* none */
+    }
+    
+    
+
+    .nav__button-dark:hover{
+        color: #fff;
+        /* none */
+    }
+
+
 }
-.nav__button-dark:visited{
-    text-decoration: none;
-}
-.nav__button-dark:hover{
-    text-decoration: none;
-}
-.nav__button-dark:active{
-    text-decoration: none;
-}
+
