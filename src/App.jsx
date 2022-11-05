@@ -10,7 +10,7 @@ function App() {
     <div>
             <Nav />
         <Routes>
-            <Route path="/:class" element={<Screen /> } />
+            <Route path="/laight:class" element={<Screen /> } />
         </Routes>
             <Screen />
             <Footer />
