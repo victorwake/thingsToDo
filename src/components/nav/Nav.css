@@ -91,7 +91,7 @@
     
 
     .nav__button-light:hover{
-        /* pointer-events:none; */
+        pointer-events:none;
         /* none */
     }
 
@@ -104,11 +104,16 @@
         text-decoration: none;
         color: none;
     }
+
+    Link{
+        text-decoration: none;
+        color: none;
+    }
     
     
 
     .nav__button-dark:hover{
-        /* pointer-events:none; */
+        pointer-events:none;
         /* none */
     }
 
