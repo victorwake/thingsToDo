@@ -81,3 +81,15 @@
   /* Modo light fin */
   
   
+  @media screen and (max-width: 768px) {
+    .App-card-light{
+      width: 300px;
+    }
+
+    .App-card-dark{
+      width: 300px;
+    }
+
+  }
+    
+  

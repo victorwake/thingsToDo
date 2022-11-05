@@ -136,5 +136,28 @@
 /* ------------------------------------------------------------------------------------------------------------ */
 
 
+@media screen and (max-width: 768px){
+    .task-conteiner-light{
+        width: 280px ;
+        min-height: 45px;
+        padding: 8px 15px 2px 20px;
+    }
+    .task-conteiner-completed-light{
+        width: 280px ;
+        min-height: 45px;
+        padding: 8px 15px 2px 20px;
+    }
 
+    .task-conteiner-dark{
+        width: 280px ;
+        min-height: 45px;
+        padding: 8px 15px 2px 20px;
+    }
+    .task-conteiner-completed-dark{
+        width: 280px ;
+        min-height: 45px;
+        padding: 8px 15px 2px 20px;
+    }
+}
+    
 

@@ -10,7 +10,7 @@ function App() {
     <div>
             <Nav />
         <Routes>
-            <Route path="/light:class" element={<Screen /> } />
+            <Route path="/:class" element={<Screen /> } />
         </Routes>
             <Screen />
             <Footer />

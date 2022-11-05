@@ -42,8 +42,8 @@ export default function ThingsToDo() {
 
 
     return (
-    <div>
-        <Form onSubmit={addTask} />
+    <div className="thingsTodo-conteiner-global">
+        <Form onSubmit={addTask}  />
         <div className="thingsTodo-conteiner">
             <ul>
             {

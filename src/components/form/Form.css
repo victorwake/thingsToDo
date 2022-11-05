@@ -8,6 +8,7 @@
     justify-content: center;
     border-radius: 15px;
     transition-duration: 01s;
+    background-color: rgb(224, 224, 224);
     color: rgb(197, 187, 187);
     box-shadow: -5px -5px 10px rgba(94, 104, 121, 0.486), 5px 3px 10px rgba(255, 255, 255, 0.76);
 }
@@ -83,3 +84,35 @@
 /* Fin modo Dark */
 /* ------------------------------------------------------------------------------------------------------ */
 
+
+@media screen and (max-width: 768px) {
+
+
+    .task-input-light {
+        
+        width: 140px;
+        font-size: 12px;
+        
+    }
+    .task-button-light{
+        font-size: 12px;
+    }
+
+    .task-form-light {
+        width: 280px;   
+    }
+
+    .task-input-dark {
+        width: 140px;
+        font-size: 12px;
+    }
+    .task-button-dark{
+        font-size: 12px;
+    }
+
+    .task-form-dark {
+        width: 280px;   
+    }
+}
+
+    
