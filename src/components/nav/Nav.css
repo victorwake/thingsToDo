@@ -91,7 +91,7 @@
     
 
     .nav__button-light:hover{
-        pointer-events:none;
+        /* pointer-events:none; */
         /* none */
     }
 
@@ -113,7 +113,7 @@
     
 
     .nav__button-dark:hover{
-        pointer-events:none;
+        /* pointer-events:none; */
         /* none */
     }
 
