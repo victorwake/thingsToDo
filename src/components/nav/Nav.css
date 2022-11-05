@@ -67,14 +67,10 @@
     box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
 }
 
-Link{
-    text-decoration: none;
-    color: none;
-}
+
 
 .nav__button-light a{
     text-decoration: none;
-    pointer-events: none;
     transition-duration: 01s;
     color: rgba(0, 0, 0, 0.76);
 
@@ -83,7 +79,6 @@ Link{
 
 .nav__button-dark a{
     text-decoration: none;
-    pointer-events: none;
     transition-duration: 01s;
     color: #fff;
     
@@ -96,13 +91,24 @@ Link{
     
 
     .nav__button-light:hover{
+        /* pointer-events:none; */
         /* none */
+    }
+
+    a{
+        text-decoration: none;
+        color: none;
+    }
+
+    a:hover{
+        text-decoration: none;
+        color: none;
     }
     
     
 
     .nav__button-dark:hover{
-        color: #fff;
+        /* pointer-events:none; */
         /* none */
     }
 
