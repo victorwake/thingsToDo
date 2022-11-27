@@ -21,18 +21,6 @@
     box-shadow: -3px -2px 5px rgb(0, 0, 0), 3px 1px 5px rgba(255, 255, 255, 0.137);
 }
 
-.nav__button-dark:hover{
-    box-shadow: inset -3px -5px 5px rgb(0, 0, 0), inset 3px 1px 3px rgba(255, 255, 255, 0.096);
-}
-
-.nav__button-dark:link{
-    box-shadow: inset -3px -5px 5px rgb(0, 0, 0), inset 3px 1px 3px rgba(255, 255, 255, 0.096);
-}
-/* Modo dark fin */
-
-/* --------------------------------------------------------------------------------------------------- */
-
-/* Modo light end */
 .Nav-light { 
     text-align: center;
     margin-top: 0;
@@ -57,45 +45,100 @@
     box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
 }
 
-.nav__button-light:hover{
-    box-shadow: inset -2px -5px 5px rgba(255,255,255,0.45), inset 2px 5px 5px rgba(94,104,121,0.3);
-    color: rgba(0, 0, 0, 0.76);
-    /* font-weight: 700; */
-}
 
-.nav__button-light:link{
-    box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
-}
-
-
-
-.nav__button-light a{
-    text-decoration: none;
-    transition-duration: 01s;
-    color: rgba(0, 0, 0, 0.76);
-
-
-}
-
-.nav__button-dark a{
-    text-decoration: none;
-    transition-duration: 01s;
-    color: #fff;
-    
-
-}
-
-
-
-@media screen and (max-width: 768px) {
-    
-
-    .nav__button-light:hover{
-        /* pointer-events:none; */
-        /* none */
+@media screen and (min-width: 768px) {
+    .Nav-dark {
+        text-align: center;
+        margin-top: 0;
+        padding-top: 50px;
+        padding-bottom: 60px;
+        transition-duration: 01s;
+        background-color: rgb(26, 24, 24);
+        color: #fff;
     }
+    
+    .nav__button-dark{
+        border: none;
+        padding: 10px;
+        margin: 0 20px;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 10px;
+        transition-duration: 01s;
+        background-color: rgb(26, 24, 24);
+        color: #fff;
+        box-shadow: -3px -2px 5px rgb(0, 0, 0), 3px 1px 5px rgba(255, 255, 255, 0.137);
+    }
+    
+    .nav__button-dark:hover{
+        box-shadow: inset -3px -5px 5px rgb(0, 0, 0), inset 3px 1px 3px rgba(255, 255, 255, 0.096);
+    }
+    
+    .nav__button-dark:link{
+        box-shadow: inset -3px -5px 5px rgb(0, 0, 0), inset 3px 1px 3px rgba(255, 255, 255, 0.096);
+    }
+    /* Modo dark fin */
+    
+    /* --------------------------------------------------------------------------------------------------- */
+    
+    /* Modo light end */
+    .Nav-light { 
+        text-align: center;
+        margin-top: 0;
+        padding-top: 50px;
+        padding-bottom: 60px;
+        transition-duration: 01s;
+        background-color: rgb(224, 224, 224);
+        color: rgb(2, 2, 2);
+    }
+    
+    .nav__button-light{
+        color: rgba(2, 2, 2, 0.568);
+        /* font-weight: 700; */
+        border: none;
+        padding: 10px;
+        margin: 0 20px;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 10px;
+        transition-duration: 01s;
+        background-color: rgb(224, 224, 224);
+        box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+    }
+    
+    .nav__button-light:hover{
+        box-shadow: inset -2px -5px 5px rgba(255,255,255,0.45), inset 2px 5px 5px rgba(94,104,121,0.3);
+        color: rgba(0, 0, 0, 0.76);
+        /* font-weight: 700; */
+    }
+    
+    .nav__button-light:link{
+        box-shadow: inset -5px -5px 9px rgba(255,255,255,0.45), inset 5px 5px 9px rgba(94,104,121,0.3);
+    }
+    
+    
+    
+    .nav__button-light a{
+        text-decoration: none;
+        transition-duration: 01s;
+        color: rgba(0, 0, 0, 0.76);
+    
+    
+    }
+    
+    .nav__button-dark a{
+        text-decoration: none;
+        transition-duration: 01s;
+        color: #fff;
+        
+    
+    }
+    
+    
 
-    a{
+
+
+    /* a{
         text-decoration: none;
         color: none;
     }
@@ -108,14 +151,11 @@
     Link{
         text-decoration: none;
         color: none;
-    }
+    } */
     
     
 
-    .nav__button-dark:hover{
-        /* pointer-events:none; */
-        /* none */
-    }
+
 
 
 }
